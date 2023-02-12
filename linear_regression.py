@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pickle
 from matplotlib import style
 
-data = pd.read_csv("student-mat.csv", sep=";")
+data = pd.read_csv("data/student-mat.csv", sep=";")
 data = data[["G1", "G2", "G3", "failures", "studytime", "absences"]]
 
 predict = "G3"
